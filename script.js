@@ -18,7 +18,7 @@ class Person {
 class Student extends Person {
 
   study(){
-	  console.log(`${this.name} is studing`);
+	  console.log(`${this.name} is studying`);
   }
 
 	
@@ -33,7 +33,7 @@ class Teacher extends Person {
 }
 
 let person1 = new Person("Abhi",45);
-console.log(name);
+console.log(person1.name);
 person1.age = 47;
 console.log(person1.age);
 
